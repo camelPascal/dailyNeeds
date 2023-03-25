@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Deals</title>
+</head>
+<body>
+    <section class="header">
+        <div class="logo">eNeed</div>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="deals.html">Deals</a>
+            <a href="grocery.html">Grocery</a>
+            <a hrerf="" onclick= "scrollElement()">Contacts</a>
+        </div>
+        <div class="search">
+            <input type="search" id="search">
+            <label for="search"><i class="fa fa-search"></i></label>
+        </div>
+        <a href="login.html" class="login">LOGIN</a>
+    </section>
+
+    <section class="recomended">
+        <ul type="square">
+            <li>Dairy Items</li>
+            <li>Confectionary</li>
+            <li>Flour</li>
+            <li>Boost</li>
+            <li>Soft Drinks</li>
+        </ul>
+        <table class="deal-blocks">
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="contacts" id="contacts">
+        <div>
+
+            <p>Email :<a href="">xyz@gmail.com</a></p>
+            <p>Mobile No: +91 XXXXXXXXXX</p>
+            <p>Address :</p><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci rem quaerat quibusdam est rerum quia, id quod sapiente facere? Exercitationem?</p>
+        </div>
+    </section>
+
+    <script>
+        function scrollElement(){
+         var element = document.getElementById("contacts");
+        element.scrollIntoView();
+        }
+    </script>
+
+</body>
+</html>
