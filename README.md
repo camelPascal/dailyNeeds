@@ -4,7 +4,7 @@ A daily need website
 Disclaimer::
 
 All rights belongs to their respective Owners
-as the images used in the given source is for educational perpose only
+as the images used in the given source is for educational purpose only
 
 
 ![Screenshot_20230325_162752](https://user-images.githubusercontent.com/127678899/227713190-2f3c4435-6e4b-44ba-ae48-8fcca0c777ff.png)
